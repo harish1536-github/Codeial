@@ -1,0 +1,52 @@
+#home-container {
+  
+  display: flex; }
+  #home-container #feed-posts {
+    width: 70%;
+    padding: 10px; }
+  #home-container #user-friends {
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid lightgrey;
+    height: 100%; }
+    #friendstag{
+      color:black;
+      text-decoration: none;
+      /* padding: 14px 25px; */
+    }
+  #user-friends
+    {
+       height: 100%;
+  background-color: #d9d9d9; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#d9d9d9, #f2f2f2);
+    }
+    .my-btn {
+  background-color: #2196f3; /* Green */
+  border: none;
+  color: white;
+   height: 40px;
+  width:50px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn {border-radius: 12px;}
+
+   .my-btn1 {
+  background-color: #2196f3; /* Green */
+  border: none;
+  color: white;
+  height: 40px;
+  width:90px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
