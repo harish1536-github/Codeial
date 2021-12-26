@@ -10,14 +10,12 @@ const env = require("./environment");
 passport.use(
   new googleStrategy(
     {
-      // clientID: '581066183110-4rvgm20fco0ne4btq1h3is1r4r12ih2v.apps.googleusercontent.com', // e.g. asdfghjkkadhajsghjk.apps.googleusercontent.com
-      // clientSecret: 'YhZ7SJiJQyscQIzsJnBgYCz4', // e.g. _ASDFA%KFJWIASDFASD#FAD-
-      // callbackURL: "http://localhost:8000/users/auth/google/callback",
+      
       clientID:
-        "166554182941-4cnucl94pnlt4d6h7hggjhjqricga94b.apps.googleusercontent.com",
-      clientSecret: "dX-H-rl2iGmBmLPcARiFooGu",
+       Make Your Own ,
+      clientSecret:  Make Your Own
       //  env.google_client_secret,
-      callbackURL: "http://localhost:8000/users/auth/google/callback",
+      callbackURL: Make Your Own,
       // env.google_call_back_url,
     },
     //putting a callback function takes a accessToken
